@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class WordList {
 
     public static void main(String[] args) {
-        Set<String> s = new TreeSet<>();
+        Set<String> s = new TreeSet<String>();
         String[] arg = {"e","a","f"};
         Collections.addAll(s,arg);
         System.out.println(s);
